@@ -1,0 +1,320 @@
+body {
+	width: 100%;
+	font-family: "Open sans", sans-serif;
+	overflow-x: hidden;
+
+}
+/*Header styling*/
+.main-header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 2.9rem;
+	
+}
+.main-header img {
+	padding-left: 1.7rem;
+}
+.main-header button {
+	border-radius: 20px;
+	border: 1px solid #FF66CC;
+	color: #FF66CC;
+	background-color: #ffffff;
+	padding: 10px 30px;
+	margin-right: 2rem;
+	cursor: pointer;
+}
+/*main section styling*/
+main {
+	margin-top: 7rem;
+	padding: 1.5rem;
+}
+.introduction {
+	display:inline-grid;
+	grid-template-rows: 1fr;
+}
+.introduction h1 {
+	text-align: center;
+	font-weight: bold;
+}
+.introduction p {
+	width: 40%;
+	text-align: center;
+	margin: 30px auto;
+	line-height: 1.5rem;
+}
+.introduction button {
+	border-radius: 20px;
+	background-color: #FF66CC;
+	color: #FFFFFF;
+	border: none;
+	padding: 15px 32px;
+	width: 30%;
+	justify-self: center;
+	cursor: pointer;
+}
+.introduction img {
+	width: 60%;
+	margin-top: 4rem;
+	justify-self: center;
+}
+.statistic {
+	display: block;
+	width: 80%;
+	margin-right: auto;
+    margin-left: auto;
+    margin-top: 10%;
+}
+.grid-area {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin-top: 2rem;
+	margin-bottom: 4rem;
+}
+.communities,
+.messages {
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr;
+	justify-content: center;
+}
+.communities img,
+.messages img {
+	align-self: end;
+}
+.communities h2,
+.messages h2 {
+	font-weight: x-large;
+}
+
+.background {
+	margin-top: -5rem;
+}
+.background img {
+	margin-bottom: -0.3rem;
+	width: 100%;
+}
+.grow-together {
+	background-color: #F6FBFF;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+.grow-together img {
+	display: grid;
+	grid-column-start: 2;
+}
+#grow h2 {
+	margin-top: 25%;
+	text-align: center;
+}
+#grow p {
+	width: 60%;
+	margin: 30px auto;
+	text-align: center;
+}
+
+.flowing-conversation {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin-top: 10%;
+}
+.flowing-conversation img {
+	display: grid;
+	grid-column-start: 1;
+	width: 90%;
+}
+.conversation h2 {
+	margin-top: 25%;
+	text-align: center;
+
+}
+.conversation p {
+	width: 60%;
+	text-align: center;
+	margin-left: 25%;
+}
+.your-users {
+	margin-top: 8rem;
+}
+.your-users img {
+	margin-bottom: -0.3rem;
+	width: 100%;
+}
+.users {
+	background-color: #F6FBFF;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+.users img {
+	display: grid;
+	grid-column-start: 2;
+}
+#user h2 {
+	margin-top: 25%;
+	text-align: center;
+}
+#user p {
+	width: 60%;
+	margin: 30px auto;
+	text-align: center;
+}
+.build-community {
+	margin-top: 8rem;
+	display: grid;
+	grid-template-rows: 1fr 1fr;
+	justify-content: center;
+}
+.build-community h2 {
+	text-align: center;
+}
+.build-community button {
+	border-radius: 20px;
+	border: 1px solid #FF66CC;
+	color: #FFFFFF;
+	background-color: #FF66CC;
+	text-align: center;
+	height: 50px;
+}
+
+/*Footer section*/
+.main-footer {
+	margin-top: 6rem;
+	font-size: 1em;
+}
+.main-footer img {
+	width: 100%;
+}
+
+.footerLabel {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	background-color: #00252E;
+	margin-top: -1rem;
+	color: #FFFFFF;
+}
+.contacts {
+	margin-left: 4rem;
+}
+.contacts p {
+	margin-left: 0;
+	text-align: start;
+	width: 40%;
+}
+.contacts img {
+	width: 40%;
+	margin-top: 1rem;
+}
+.contact-us {
+	display: grid;
+	grid-row-start: 2;
+	grid-row-gap: 30%;
+	margin-bottom: 3rem;
+}
+.social-icons {
+	display: grid;
+	grid-template-rows: 30px 30px 30px;
+}
+
+i.fas.fa-phone,
+i.fas.fa-envelope-square,
+i.fab.fa-facebook-square,
+i.fab.fa-instagram,
+i.fab.fa-twitter-square {
+	color: #FFFFFF;
+}
+ul {
+	margin-left: -2.8rem;
+}
+
+i.fa-facebook-square,
+i.fab.fa-instagram,
+i.fab.fa-twitter-square {
+	padding: 5px;
+	font-size: x-large;
+}
+
+#phone,
+#mail {
+	width: 40%;
+	padding: 15px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.newsletter h3 {
+	text-transform: uppercase;
+}
+.newsletter p {
+	width: 40%;
+	font-size: small;
+}
+.signup {
+	margin-top: 2rem;
+}
+
+.signup input {
+	border-radius: 8px;
+	border: none;
+	height: 1.9rem;
+	width: 35%;
+}
+.signup button {
+	border-radius: 8px;
+	text-align: center;
+	border: none;
+	background-color: #FF66CC;
+	padding: 8px;
+	margin-left: 1.8rem;
+	color: #FFFFFF;
+	width: 15%;
+	cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+	body {
+		background-color: yellow;
+		width: 100%;
+	}
+
+	.statistic {
+		margin-top: 10rem;
+	}
+	.statistic img {
+		width: 90%;
+		margin-left: 3rem;
+	}
+	.grid-area {
+		display: grid;
+		grid-template-columns: 1fr;
+		align-content: stretch;
+	}
+	.communities,
+	.messages {
+		display: grid;
+		grid-template-rows: 50px 50px;
+		justify-content: center;
+	}
+	.communities {
+		margin-left: 2rem;
+	}
+	.footerLabel {
+		grid-template-columns: 1fr;
+	}
+	.newsletter {
+		grid-row: 1;
+	}
+	.newsletter h3,p {
+		margin-left: 3rem;
+	}
+	input[type="text"] {
+		display: block;
+		width: 80%;
+        height: 3em;
+        margin: 5% auto;
+	}
+	.signup button {
+		height: 3em;
+        width: 45%;
+        font-size: large;
+        margin-left: 45%;
+	}
+}	
