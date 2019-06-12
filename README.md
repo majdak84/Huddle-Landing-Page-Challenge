@@ -17,4 +17,4 @@
   <p>Thank you to <a href="https://www.frontendmentor.io/" target="_blank">Frontend Mentor</a> for giving out high quality design files for projects like this.
 
 <h2>Live preview</h2>
-<a href="https://majdak84.github.io/Huddle-landing-page-with-alternating-sections/"</a>
+  <a href="https://majdak84.github.io/Huddle-landing-page-with-alternating-sections/"</a>
